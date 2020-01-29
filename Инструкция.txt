@@ -1,0 +1,8 @@
+Проверить чтобы работал интернет, если заблокирован удалить iptables перезагрузиться
+и запустить команды заново. Терминал должен быть открыт в той же папке где находятся .deb пакеты.
+
+
+sudo apt-get update
+sudo dpkg -i chromium-browser_79.0.3945.79-0ubuntu0.16.04.1_i386.deb
+sudo dpkg -i chromium-browser-l10n_79.0.3945.79-0ubuntu0.16.04.1_all.deb
+sudo dpkg -i chromium-codecs-ffmpeg-extra_79.0.3945.79-0ubuntu0.16.04.1_i386.deb
